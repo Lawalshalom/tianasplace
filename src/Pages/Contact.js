@@ -68,7 +68,7 @@ export default class Contact extends Component {
                                     <p><a href ="mailto: lawalshalom@gmail.com"><i className="fa fa-envelope" aria-hidden="true"><span> Email:</span></i> lawalshalom@gmail.com</a></p>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-6">
-                                    <p><a href="tel:+2348160983729"><i className="fa fa-phone" aria-hidden="true"><span> Mobile:</span></i> +234 816 3729</a></p>
+                                    <p><a href="tel:+2348160983729"><i className="fa fa-phone" aria-hidden="true"><span> Mobile:</span></i> +234 816 098 3729</a></p>
                                 </div>
                             </div>
                             <div className="row">
