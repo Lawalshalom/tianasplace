@@ -1,0 +1,191 @@
+#pyramid {
+	position: absolute;
+	left: 10vw;
+	top: 5vh;
+	-webkit-transform-style: preserve-3d;
+	-webkit-animation: spin 10s linear infinite;
+	-webkit-transform-origin: 116px 200px 116px;
+	-moz-transform-style: preserve-3d;
+	-moz-animation: spin 10s linear infinite;
+	-moz-transform-origin: 116px 200px 116px;
+	-ms-transform-style: preserve-3d;
+	-ms-animation: spin 10s linear infinite;
+	-ms-transform-origin: 116px 200px 116px;
+	transform-style: preserve-3d;
+	animation: spin 10s linear infinite;
+	transform-origin: 116px 200px 116px;
+	overflow: visible;
+}
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	to {
+		-webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+	}
+}
+@-moz-keyframes spin {
+	from {
+		-moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	to {
+		-moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+	}
+}
+@-ms-keyframes spin {
+	from {
+		-ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	to {
+		-ms-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+	}
+}
+@keyframes spin {
+	from {
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	to {
+		transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+	}
+}
+#pyramid > div {
+	position: absolute;
+	border-style: solid;
+	border-width: 200px 0 200px 346px;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+	overflow: visible;
+}
+#pyramid > div:after {
+	position: absolute;
+	color: #fff;
+	left: -311px;
+	top: -69px;
+	text-align: center;
+	overflow: visible;
+	opacity: 0.6;
+}
+#pyramid > div:first-child:after {
+	position: absolute;
+	content: url("https://res.cloudinary.com/lawfirm1000/image/upload/v1594881664/Portfolio%20site/html_tq6wrp.png");
+}
+#pyramid > div:nth-child(2):after {
+	position: absolute;
+	content: url("https://res.cloudinary.com/lawfirm1000/image/upload/v1594881663/Portfolio%20site/css_nxgpp5.png");
+}
+#pyramid > div:nth-child(3):after {
+	position: absolute;
+	content: url("https://res.cloudinary.com/lawfirm1000/image/upload/v1594881664/Portfolio%20site/javascript_u21aa1.png");
+}
+#pyramid > div:nth-child(4):after {
+	position: absolute;
+	width: 150px;
+	content: url("https://res.cloudinary.com/lawfirm1000/image/upload/v1594881664/Portfolio%20site/react-1_fhlddp.png");
+	left: -315px;
+	top: -91px;
+}
+#pyramid > div:first-child {
+	border-color: transparent transparent transparent rgba(50, 50, 50, 0.6);
+	-webkit-transform: rotateY(-19.5deg) rotateX(180deg) translateY(-400px);
+	-moz-transform: rotateY(-19.5deg) rotateX(180deg) translateY(-400px);
+	-ms-transform: rotateY(-19.5deg) rotateX(180deg) translateY(-400px);
+	transform: rotateY(-19.5deg) rotateX(180deg) translateY(-400px);
+}
+#pyramid > div:nth-child(2) {
+	border-color: transparent transparent transparent rgba(50, 50, 50, 0.6);
+	-webkit-transform: rotateY(90deg) rotateZ(60deg) rotateX(180deg)
+		translateY(-400px);
+	-moz-transform: rotateY(90deg) rotateZ(60deg) rotateX(180deg)
+		translateY(-400px);
+	-ms-transform: rotateY(90deg) rotateZ(60deg) rotateX(180deg)
+		translateY(-400px);
+	transform: rotateY(90deg) rotateZ(60deg) rotateX(180deg) translateY(-400px);
+}
+#pyramid > div:nth-child(3) {
+	border-color: transparent transparent transparent rgba(50, 50, 50, 0.9);
+	-webkit-transform: rotateX(60deg) rotateY(19.5deg);
+	-moz-transform: rotateX(60deg) rotateY(19.5deg);
+	-ms-transform: rotateX(60deg) rotateY(19.5deg);
+	transform: rotateX(60deg) rotateY(19.5deg);
+}
+#pyramid > div:nth-child(4) {
+	border-color: transparent transparent transparent rgba(50, 50, 50, 0.8);
+	-webkit-transform: rotateX(-60deg) rotateY(19.5deg) translateX(-116px)
+		translateY(-200px) translateZ(326px);
+	-moz-transform: rotateX(-60deg) rotateY(19.5deg) translateX(-116px)
+		translateY(-200px) translateZ(326px);
+	-ms-transform: rotateX(-60deg) rotateY(19.5deg) translateX(-116px)
+		translateY(-200px) translateZ(326px);
+	transform: rotateX(-60deg) rotateY(19.5deg) translateX(-116px)
+		translateY(-200px) translateZ(326px);
+}
+
+@media (max-width: 767px) {
+	#pyramid {
+		height: 70vh;
+		left: 25vw;
+		position: relative;
+	}
+	.pyramid-div {
+		position: initial;
+		overflow: hidden;
+	}
+}
+.pyramid-div {
+	overflow: hidden;
+}
+.about {
+	position: relative;
+	margin-top: 15vh;
+	z-index: 1;
+	overflow: hidden;
+}
+.about h2 > span {
+	color: #ff652f;
+}
+.bio {
+	overflow: hidden;
+}
+.bio h2 {
+	color: #ff652f;
+}
+.aboutPic {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	border-radius: 70px;
+	background: url("https://res.cloudinary.com/lawfirm1000/image/upload/v1594881667/Portfolio%20site/femi-lawal-1_qbgrs1.png")
+		top center / cover no-repeat;
+	border: 2px solid #ff652f;
+}
+#parent {
+	overflow: hidden;
+}
+.about-social {
+	display: flex;
+	flex-direction: column;
+	transition: all 1s;
+	position: absolute;
+	width: min-content;
+	top: 10vh;
+	right: 2rem;
+	z-index: 100;
+}
+
+.about-social i {
+	color: #fff;
+	padding: 5px;
+}
+.about-social i:hover {
+	color: #ff652f;
+	animation: rubberBand 1s;
+	transition: all 1s;
+}
+
+@media (min-width: 600px) {
+	.about-social {
+		left: 85vw;
+	}
+}

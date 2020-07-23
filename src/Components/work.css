@@ -1,0 +1,145 @@
+.skills-text {
+	position: relative;
+	margin-top: 20vh;
+	overflow: hidden;
+	z-index: 1;
+}
+h1 span {
+	color: #ff652f;
+}
+
+.site {
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 1;
+}
+.site-cont,
+main {
+	position: relative;
+	overflow: hidden;
+}
+.site-cont {
+	margin-top: -4rem;
+}
+.hexagon {
+	position: initial;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	height: 80px;
+	width: 50px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.hexagon::before,
+.hexagon::after {
+	content: "";
+	position: absolute;
+	background-color: inherit;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.hexagon::before {
+	height: 82px;
+	width: 50px;
+	top: -2px;
+	transform: rotateZ(-62deg);
+}
+.hexagon::after {
+	height: 86px;
+	width: 45px;
+	top: -4px;
+	transform: rotateZ(58deg);
+}
+.hexagon i {
+	font-size: 40px;
+}
+.site-div {
+	position: relative;
+	width: 100%;
+}
+.site-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.site-text p {
+	margin-left: 25px;
+}
+@media (max-width: 400px) {
+	.site-div {
+		width: 100%;
+	}
+}
+
+.project {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 50px;
+	z-index: 1;
+	overflow: hidden;
+}
+.project h1 {
+	padding: 20px;
+	margin: 30px;
+}
+.project h1 span {
+	padding-bottom: 15px;
+	border-bottom: 2px solid #fff;
+}
+.project-img {
+	width: 308px;
+	height: 222px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+	background: url("https://res.cloudinary.com/lawfirm1000/image/upload/v1595514602/Portfolio%20site/scmui_wwvqfx.png")
+		center center / cover no-repeat;
+}
+.project-img:hover {
+	background-size: 500px;
+	transition: all 2s;
+}
+.project-img::before {
+	content: "";
+	position: relative;
+	background: #ff662fc0;
+	height: inherit;
+	width: inherit;
+	transform: translateX(-100%);
+	opacity: 0;
+	transition: all ease 2s;
+}
+.project-img:hover::before {
+	opacity: 1;
+	transform: translateX(0);
+}
+.project-img:hover a {
+	z-index: 1;
+	opacity: 1;
+	transform: translateX(0);
+}
+.project-img a {
+	color: #fff;
+	background: rgba(255, 255, 255, 0.527);
+	font-weight: 600;
+	position: absolute;
+	padding: 10px;
+	transform: translateX(100%);
+	border-radius: 25px;
+	border: 2px solid #fff;
+	text-decoration: none;
+	opacity: 0;
+	transition: all 2s;
+}
