@@ -9,7 +9,7 @@ html.animatedOut {
 	margin: 0;
 	padding: 0;
 	outline: none;
-	overflow: hidden;
+	overflow-x: hidden;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -24,6 +24,15 @@ html.animatedOut {
 body {
 	background-color: $black;
 	color: $white;
+	overflow-y: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	overflow-y: hidden !important;
 }
 .header-logo {
 	position: absolute;
@@ -196,13 +205,11 @@ body {
 	.line1 h1,
 	.line3 h1 {
 		font-size: 1.5rem;
-		position: absolute;
 		overflow: hidden;
 		z-index: 1;
 	}
 	.line2 {
 		h1 {
-			position: absolute;
 			font-size: 4rem;
 			overflow: hidden;
 			margin-top: 0.5rem;
@@ -219,6 +226,7 @@ body {
 	overflow: hidden;
 	justify-content: flex-start;
 }
+
 .home-text h1:hover {
 	display: flex;
 	animation: rubberBand 1s;
