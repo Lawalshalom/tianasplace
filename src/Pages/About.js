@@ -86,10 +86,10 @@ export default class About extends Component {
                 </div>
             </div>
             <div className="about-social">
-              <a href="https://twitter.com/lawalshalom"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="https://facebook.com/lawalshalom"><i  data-aos="fade-down" data-aos-delay="200" className="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/in/femi-lawal-s-776a02110/"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-linkedin-square" aria-hidden="true"></i></a>
-              <a href="https://github.com/lawalshalom"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-github" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="https://facebook.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i  data-aos="fade-down" data-aos-delay="200" className="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/femi-lawal-s-776a02110/" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="https://github.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-github" aria-hidden="true"></i></a>
             </div>
           </main>
         </section>

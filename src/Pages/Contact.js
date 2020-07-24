@@ -73,22 +73,22 @@ export default class Contact extends Component {
                             </div>
                             <div className="row">
                                 <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-                                    <a href="https://twitter.com/lawalshalom"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-twitter" aria-hidden="true"></i>@lawalshalom</a>
+                                    <a href="https://twitter.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-twitter" aria-hidden="true"></i>@lawalshalom</a>
                                 </div>
                                 <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-                                    <a href="https://facebook.com/lawalshalom"><i  data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-facebook" aria-hidden="true"></i>@lawalshalom</a>
+                                    <a href="https://facebook.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i  data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-facebook" aria-hidden="true"></i>@lawalshalom</a>
                                 </div>
                                 <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-                                    <a href="https://www.linkedin.com/in/femi-lawal-s-776a02110/"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i><span>Femi Lawal</span></a>
+                                    <a href="https://www.linkedin.com/in/femi-lawal-s-776a02110/" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i><span>Femi Lawal</span></a>
                                 </div>
                                 <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-                                    <a href="https://github.com/lawalshalom"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-github" aria-hidden="true"></i>@lawalshalom</a>
+                                    <a href="https://github.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-github" aria-hidden="true"></i>@lawalshalom</a>
                                 </div>
                                 <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-                                    <a href="https://instagram.com/lawalshalom"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-instagram" aria-hidden="true"></i>@lawalshalom</a>
+                                    <a href="https://instagram.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-instagram" aria-hidden="true"></i>@lawalshalom</a>
                                 </div>
                                 <div className="col-lg-2 col-md-2 col-sm-4 col-6">
-                                    <a href="https://stackoverflow.com/users/13649468/femi-lawal"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-stack-overflow" aria-hidden="true"></i><span>Femi Lawal</span></a>
+                                    <a href="https://stackoverflow.com/users/13649468/femi-lawal" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="200" className="fa fa-2x fa-stack-overflow" aria-hidden="true"></i><span>Femi Lawal</span></a>
                                 </div>
                             </div>
                         </div>

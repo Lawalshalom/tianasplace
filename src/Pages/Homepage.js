@@ -79,10 +79,10 @@ export default class Homepage extends Component {
                         </div>
                     </div>
                     <div className="home-social">
-                        <a href="https://twitter.com/lawalshalom"><i data-aos="fade-down" data-aos-delay="2500" className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://facebook.com/lawalshalom"><i  data-aos="fade-down" data-aos-delay="2550" className="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/femi-lawal-s-776a02110/"><i data-aos="fade-down" data-aos-delay="2600" className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
-                        <a href="https://github.com/lawalshalom"><i data-aos="fade-down" data-aos-delay="2650" className="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="2500" className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://facebook.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i  data-aos="fade-down" data-aos-delay="2550" className="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/femi-lawal-s-776a02110/" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="2600" className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href="https://github.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="2650" className="fa fa-github fa-2x" aria-hidden="true"></i></a>
                         <footer data-aos="fade-down" data-aos-delay="2700">
                             &copy; Copyright 2020
                         </footer>
