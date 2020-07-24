@@ -4,11 +4,12 @@
 html.animatedOut {
 	animation: zoomInDown 1s;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	outline: none;
-	overflow-x: hidden;
+	overflow: hidden;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
