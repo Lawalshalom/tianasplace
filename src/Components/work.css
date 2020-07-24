@@ -27,7 +27,7 @@ main {
 .hexagon {
 	position: initial;
 	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #ff652f;
 	height: 80px;
 	width: 50px;
 	margin-bottom: 10px;
@@ -41,7 +41,7 @@ main {
 	content: "";
 	position: absolute;
 	background-color: inherit;
-	border-top: 2px solid #fff;
+	border-top: 2px solid #ff652f;
 	border-bottom: 2px solid #fff;
 }
 .hexagon::before {
