@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 particlesJS("particles-js", {
     particles: {
         number: { value: 128, density: { enable: true, value_area: 800 } },
