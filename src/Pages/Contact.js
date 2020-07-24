@@ -48,7 +48,7 @@ export default class Contact extends Component {
                     <div className="myPic"></div>
                         <ul ref={this.navMenu}>
                             <li onClick={this.handleClick}><Link to="/">Home</Link></li>
-                            <li onClick={this.handleClick}><Link to="/work">Works</Link></li>
+                            <li onClick={this.handleClick}><Link to="/work">Work</Link></li>
                             <li onClick={this.handleClick}><Link to="/about">About</Link></li>
                             <li><Link to="/contact"  className="active">Contact Me</Link></li>
                         </ul>

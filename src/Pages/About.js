@@ -50,7 +50,7 @@ export default class About extends Component {
                 <nav className="navbar" ref={this.nav}>
                   <ul ref={this.navMenu}>
                     <li onClick={this.handleClick}><Link to="/">Home</Link></li>
-                    <li onClick={this.handleClick}><Link to="/work">Works</Link></li>
+                    <li onClick={this.handleClick}><Link to="/work">Work</Link></li>
                     <li><Link to="/about" className="active">About</Link></li>
                     <li onClick={this.handleClick}><Link to="/contact">Contact Me</Link></li>
                   </ul>

@@ -50,7 +50,7 @@ export default class Work extends Component {
                     <div className="myPic"></div>
                         <ul ref={this.navMenu}>
                             <li onClick={this.handleClick}><Link to="/">Home</Link></li>
-                            <li><Link to="/work" className="active">Works</Link></li>
+                            <li><Link to="/work" className="active">Work</Link></li>
                             <li onClick={this.handleClick}><Link to="/about">About</Link></li>
                             <li onClick={this.handleClick}><Link to="/contact">Contact Me</Link></li>
                         </ul>

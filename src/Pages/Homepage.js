@@ -48,7 +48,7 @@ export default class Homepage extends Component {
                         <div className="myPic"></div>
                         <ul ref={this.navMenu}>
                             <li><Link to="/" className="active">Home</Link></li>
-                            <li onClick={this.handleClick}><Link to="/work">Works</Link></li>
+                            <li onClick={this.handleClick}><Link to="/work">Work</Link></li>
                             <li onClick={this.handleClick}><Link to="/about">About</Link></li>
                             <li onClick={this.handleClick}><Link to="/contact">Contact Me</Link></li>
                         </ul>
@@ -77,6 +77,7 @@ export default class Homepage extends Component {
                             <h1 data-aos="fade-left" data-aos-delay="1850">r</h1><h1 data-aos="fade-left" data-aos-delay="1900">,&nbsp;</h1><h1 data-aos="fade-left" data-aos-delay="1950">F</h1><h1 data-aos="fade-left" data-aos-delay="2000">u</h1>
                             <h1 data-aos="fade-left" data-aos-delay="2050">l</h1><h1 data-aos="fade-left" data-aos-delay="2100">l</h1><h1 data-aos="fade-left" data-aos-delay="2200">s</h1><h1 data-aos="fade-left" data-aos-delay="2250">t</h1><h1 data-aos="fade-left" data-aos-delay="2300">a</h1><h1 data-aos="fade-left" data-aos-delay="2350">c</h1><h1 data-aos="fade-left" data-aos-delay="2400">k</h1><h1 data-aos="fade-left" data-aos-delay="2450">.</h1>
                         </div>
+                        <div className="get-started"></div>
                     </div>
                     <div className="home-social">
                         <a href="https://twitter.com/lawalshalom" target="_blank" rel="noopener noreferrer"><i data-aos="fade-down" data-aos-delay="2500" className="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
