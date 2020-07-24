@@ -190,18 +190,21 @@ body {
 }
 .home {
 	position: relative;
+	overflow: hidden;
 	margin-top: 30vh;
 	cursor: default;
 	.line1 h1,
 	.line3 h1 {
 		font-size: 1.5rem;
 		position: absolute;
+		overflow: hidden;
 		z-index: 1;
 	}
 	.line2 {
 		h1 {
 			position: absolute;
 			font-size: 4rem;
+			overflow: hidden;
 			margin-top: 0.5rem;
 			border-bottom: 2px solid $white;
 			z-index: 1;
@@ -238,6 +241,7 @@ body {
 
 	i {
 		color: $white;
+		overflow: hidden;
 		padding: 5px;
 
 		&:hover {
@@ -250,6 +254,7 @@ body {
 footer {
 	position: relative;
 	margin-top: -1rem;
+	overflow: hidden;
 	margin-left: 60vw;
 }
 @media (max-width: 768px) {
@@ -269,6 +274,7 @@ footer {
 
 	h1 span {
 		color: $primary;
+		overflow: hidden;
 	}
 	a {
 		color: $white;
@@ -279,6 +285,7 @@ footer {
 		padding-bottom: 15px;
 		padding-top: 15px;
 		margin-bottom: 10px;
+		overflow: hidden;
 		border: 1px solid $white;
 		border-radius: 20px;
 		background: linear-gradient(
