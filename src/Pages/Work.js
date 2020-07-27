@@ -130,7 +130,7 @@ export default class Work extends Component {
                 <div className="project">
                     <h1>PR<span>OJE</span>CT</h1>
                     <div className="project-img">
-                        <a href="https://scmui.netlify.app" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                        <a href="https://scmui.org" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
                     </div>
                         <p>A full front-end React app with client-side rendering and validations.</p>
                 </div>

@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import "../Splitting-master/dist/splitting.css";
-import "../Splitting-master/dist/splitting-cells.css";
 import "../Components/about.css";
 
 export default class About extends Component {
