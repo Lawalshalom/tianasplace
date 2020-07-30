@@ -58,7 +58,7 @@ export default class About extends Component {
             <main className="about-main">
                 <div className="container">
                 <div className="header-logo">
-                        <img src="https://res.cloudinary.com/lawfirm1000/image/upload/v1595544226/Portfolio%20site/f3f7eb57-efb5-4062-92e8-c6e001a43af7_toamzn.png" alt="header logo"/>
+                        <img src="https://res.cloudinary.com/lawfirm1000/image/upload/v1596073559/Portfolio%20site/imageedit_1_4636924411_w5k4ii.png" alt="header logo"/>
                     </div>
                   <div className="about row">
                       <div className="about-text col-lg-6 col-md-6 col-12">
