@@ -77,7 +77,9 @@ main {
 		width: 100%;
 	}
 }
-
+.section1 {
+	margin-bottom: 80px;
+}
 .project {
 	position: relative;
 	display: flex;

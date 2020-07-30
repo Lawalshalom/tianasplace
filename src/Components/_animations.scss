@@ -211,37 +211,38 @@
 	-webkit-animation-name: hinge;
 	animation-name: hinge;
 }
-@-webkit-keyframes fadeInRightBig {
+
+@-webkit-keyframes slideInUp {
 	0% {
 		opacity: 1;
-		-webkit-transform: translateX(400px);
-		transform: translateX(400px);
+		-webkit-transform: translateY(500px);
+		transform: translateY(500px);
 	}
 
 	100% {
 		opacity: 1;
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
 	}
 }
 
-@keyframes fadeInRightBig {
+@keyframes slideInUp {
 	0% {
 		opacity: 1;
-		-webkit-transform: translateX(400px);
-		-ms-transform: translateX(400px);
-		transform: translateX(400px);
+		-webkit-transform: translateY(500px);
+		-ms-transform: translateY(500px);
+		transform: translateY(500px);
 	}
 
 	100% {
 		opacity: 1;
-		-webkit-transform: translateX(0);
-		-ms-transform: translateX(0);
-		transform: translateX(0);
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
 	}
 }
 
-.fadeInRightBig {
-	-webkit-animation-name: fadeInRightBig;
-	animation-name: fadeInRightBig;
+.slideInUp {
+	-webkit-animation-name: slideInUp;
+	animation-name: slideInUp;
 }

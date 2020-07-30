@@ -176,40 +176,40 @@
   animation-name: hinge;
 }
 
-@-webkit-keyframes fadeInRightBig {
+@-webkit-keyframes slideInUp {
   0% {
     opacity: 1;
-    -webkit-transform: translateX(400px);
-    transform: translateX(400px);
+    -webkit-transform: translateY(500px);
+    transform: translateY(500px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
-@keyframes fadeInRightBig {
+@keyframes slideInUp {
   0% {
     opacity: 1;
-    -webkit-transform: translateX(400px);
-    transform: translateX(400px);
+    -webkit-transform: translateY(500px);
+    transform: translateY(500px);
   }
   100% {
     opacity: 1;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
-.fadeInRightBig {
-  -webkit-animation-name: fadeInRightBig;
-  animation-name: fadeInRightBig;
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
 }
 
 html.animatedOut {
-  -webkit-animation: fadeInRightBig 1s;
-          animation: fadeInRightBig 1s;
+  -webkit-animation: slideInUp 1s;
+          animation: slideInUp 1s;
 }
 
 * {
