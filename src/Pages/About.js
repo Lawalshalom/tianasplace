@@ -67,9 +67,10 @@ export default class About extends Component {
                         <p  data-aos="fade-right" data-aos-delay="100">Let me tell you a few things...</p>
                       <div className="bio">
                         <h2 data-aos="fade-up" data-aos-delay="150">BIO</h2>
-                        <p data-aos="fade-up" data-aos-delay="200">I am a self-taught developer with 1year+ experience working with projects</p>
-                        <p data-aos="fade-up" data-aos-delay="250">Well-organized person, problem solver, independent employee with high attention to detail. Great flair for logic and analytical thinking, self-driven, plays great chess, mostly indoors.</p>
-                        <p data-aos="fade-up" data-aos-delay="300">Deep-seated interest in both client-side and back-end spectra. I love working on projects with ambitious and positive prople.</p>
+                        <p data-aos="fade-up" data-aos-delay="250">I am a self-taught developer with 1year+ experience working with projects</p>
+                        <p data-aos="fade-up" data-aos-delay="350">Well-organized person, problem solver, independent employee with high attention to detail. Great flair for logic and analytical thinking, self-driven, plays great chess, mostly indoors.</p>
+                        <p data-aos="fade-up" data-aos-delay="450">Able to effectively self-manage during independent projects, as well as collaborate in a team setting. Dedicated to learning additional technologies and coding languages (currently enrolled in AWS certification courses).</p>
+                        <p data-aos="fade-up" data-aos-delay="550">Deep-seated interest in both client-side and back-end spectra. I love working on projects with ambitious and positive prople.</p>
                       </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 pyramid-div">

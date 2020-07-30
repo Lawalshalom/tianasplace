@@ -211,84 +211,11 @@
 	-webkit-animation-name: hinge;
 	animation-name: hinge;
 }
-
-@-webkit-keyframes rollIn {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateX(-100%) rotate(-120deg);
-		transform: translateX(-100%) rotate(-120deg);
-	}
-
-	100% {
-		opacity: 1;
-		-webkit-transform: translateX(0px) rotate(0deg);
-		transform: translateX(0px) rotate(0deg);
-	}
-}
-
-@keyframes rollIn {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateX(-100%) rotate(-120deg);
-		-ms-transform: translateX(-100%) rotate(-120deg);
-		transform: translateX(-100%) rotate(-120deg);
-	}
-
-	100% {
-		opacity: 1;
-		-webkit-transform: translateX(0px) rotate(0deg);
-		-ms-transform: translateX(0px) rotate(0deg);
-		transform: translateX(0px) rotate(0deg);
-	}
-}
-
-.rollIn {
-	-webkit-animation-name: rollIn;
-	animation-name: rollIn;
-}
-
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
-@-webkit-keyframes rollOut {
-	0% {
-		opacity: 1;
-		-webkit-transform: translateX(0px) rotate(0deg);
-		transform: translateX(0px) rotate(0deg);
-	}
-
-	100% {
-		opacity: 0;
-		-webkit-transform: translateX(100%) rotate(120deg);
-		transform: translateX(100%) rotate(120deg);
-	}
-}
-
-@keyframes rollOut {
-	0% {
-		opacity: 1;
-		-webkit-transform: translateX(0px) rotate(0deg);
-		-ms-transform: translateX(0px) rotate(0deg);
-		transform: translateX(0px) rotate(0deg);
-	}
-
-	100% {
-		opacity: 0;
-		-webkit-transform: translateX(100%) rotate(120deg);
-		-ms-transform: translateX(100%) rotate(120deg);
-		transform: translateX(100%) rotate(120deg);
-	}
-}
-
-.rollOut {
-	-webkit-animation-name: rollOut;
-	animation-name: rollOut;
-}
-
 @-webkit-keyframes fadeInRightBig {
 	0% {
-		opacity: 0;
-		-webkit-transform: translateX(2000px);
-		transform: translateX(2000px);
+		opacity: 1;
+		-webkit-transform: translateX(400px);
+		transform: translateX(400px);
 	}
 
 	100% {
@@ -300,10 +227,10 @@
 
 @keyframes fadeInRightBig {
 	0% {
-		opacity: 0;
-		-webkit-transform: translateX(2000px);
-		-ms-transform: translateX(2000px);
-		transform: translateX(2000px);
+		opacity: 1;
+		-webkit-transform: translateX(400px);
+		-ms-transform: translateX(400px);
+		transform: translateX(400px);
 	}
 
 	100% {
@@ -317,29 +244,4 @@
 .fadeInRightBig {
 	-webkit-animation-name: fadeInRightBig;
 	animation-name: fadeInRightBig;
-}
-
-@keyframes zoomInDown {
-	0% {
-		opacity: 1;
-		-webkit-transform: scale(0.1) translateY(-2000px);
-		-ms-transform: scale(0.1) translateY(-2000px);
-		transform: scale(0.1) translateY(-2000px);
-		-webkit-animation-timing-function: ease-in-out;
-		animation-timing-function: ease-in-out;
-	}
-
-	60% {
-		opacity: 1;
-		-webkit-transform: scale(0.475) translateY(60px);
-		-ms-transform: scale(0.475) translateY(60px);
-		transform: scale(0.475) translateY(60px);
-		-webkit-animation-timing-function: ease-out;
-		animation-timing-function: ease-out;
-	}
-}
-
-.zoomInDown {
-	-webkit-animation-name: zoomInDown;
-	animation-name: zoomInDown;
 }

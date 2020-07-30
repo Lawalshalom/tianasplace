@@ -69,10 +69,10 @@ export default class Work extends Component {
                             <div className="header">
                                 <h1>My <span>Skills</span></h1>
                             </div>
-                        <p>The main area of my expertise is front end development</p>
-                        <p>Techologies I'm proficient in include HTML, CSS(SCSS and LESS), JavaScript(Typescript), React, Redux and React Native.</p>
+                        <p>Determined and productive web developer with a passion for creative solutions.</p>
+                        <p>Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including HTML5, CSS3 (Sass and Less), JavaScript(ES6), MySQL, React, Redux and React Native</p>
                         <p>I also have full-stack experience in the MERN stack (MongoDB, Express, React, NodeJs).</p>
-                        <p>Other relevant technologies include Data Visualizations with D3, Unit and functional testings with Mocha, jQuery, relational databases as mySQL.</p>
+                        <p>Other relevant technologies include Data Visualizations with D3, Unit and functional testings with Mocha and Jest, jQuery, relational databases as mySQL.</p>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
                         <TechStack />
