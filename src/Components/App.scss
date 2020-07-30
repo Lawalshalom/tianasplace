@@ -39,7 +39,6 @@ p {
 	img {
 		height: 50px;
 		margin-top: 30px;
-		filter: invert(100%);
 	}
 }
 .menu-btn {
@@ -126,6 +125,7 @@ p {
 		visibility: visible;
 		& .myPic {
 			transform: translateY(0);
+			z-index: 99;
 		}
 	}
 }

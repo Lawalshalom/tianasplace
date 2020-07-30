@@ -250,8 +250,6 @@ p {
 .header-logo img {
   height: 50px;
   margin-top: 30px;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
 }
 
 .menu-btn {
@@ -361,6 +359,7 @@ p {
 .navbar.open .myPic {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+  z-index: 99;
 }
 
 .navbar ul {
