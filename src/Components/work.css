@@ -82,6 +82,7 @@ main {
 }
 .project {
 	position: relative;
+	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -98,50 +99,76 @@ main {
 	padding-bottom: 15px;
 	border-bottom: 2px solid #fff;
 }
-.project-img {
-	width: 308px;
-	height: 222px;
-	margin: 0;
+.project-item {
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	margin-bottom: 25px;
-	background: url("https://res.cloudinary.com/lawfirm1000/image/upload/v1595514602/Portfolio%20site/scmui_wwvqfx.png")
-		center center / cover no-repeat;
+	align-items: center;
+	flex-direction: column;
 }
-.project-img:hover {
-	background-size: 500px;
-	transition: all 2s;
+.project-item .project-img {
+	width: 300px;
+	height: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.project-img:hover::before {
+	transform: translateY(0);
+	opacity: 0.6;
+	transition: all 1s;
+}
+.project-item .project-img:hover .project-links {
+	transform: translateY(0);
+	opacity: 1;
+	transition: all 1s;
+}
+.project-img img {
+	width: 100%;
 }
 .project-img::before {
 	content: "";
-	position: relative;
-	background: #ff662fc0;
-	height: inherit;
 	width: inherit;
-	transform: translateX(-100%);
-	opacity: 0;
-	transition: all ease 2s;
-}
-.project-img:hover::before {
-	opacity: 1;
-	transform: translateX(0);
-}
-.project-img:hover a {
-	z-index: 1;
-	opacity: 1;
-	transform: translateX(0);
-}
-.project-img a {
-	color: #fff;
-	background: rgba(255, 255, 255, 0.527);
-	font-weight: 600;
+	height: inherit;
+	background: #ff652f;
 	position: absolute;
-	padding: 10px;
-	transform: translateX(100%);
-	border-radius: 25px;
-	border: 2px solid #fff;
-	text-decoration: none;
+	transform: translateY(-100%);
 	opacity: 0;
-	transition: all 2s;
+	transition: all 1s;
+}
+.project-item .project-links {
+	position: absolute;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	transform: translateY(100%);
+	opacity: 0;
+	transition: all 1s;
+}
+.project-links a {
+	color: #fff;
+	background: #ff652f;
+	padding: 5px 10px;
+	margin: 0 20px;
+	border-radius: 10px;
+}
+.project-links a:hover {
+	text-decoration: none;
+}
+.project-item button {
+	color: #fff;
+	border: none;
+	background: #ff652f;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 5px;
+}
+.project-item h3 {
+	margin-top: 20px;
+	text-align: left;
+}
+.project-item .tech {
+	margin-bottom: 40px;
+}
+button:focus {
+	outline: none;
 }

@@ -128,11 +128,126 @@ export default class Work extends Component {
                     </div>
                 </div>
                 <div className="project">
-                    <h1>PR<span>OJE</span>CT</h1>
-                    <div className="project-img">
-                        <a href="https://scmui.org" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                    <h1>PR<span>OJE</span>CTS</h1>
+                    <div className="row">
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/scmui1.png" alt="project" />
+                                    <div className="project-links">
+                                        <button title="This github repo is private"><i className="fa fa-github" aria-hidden="true"></i>Github</button>
+                                        <a href="https://scmui.org" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>SCM UI</strong></h3>
+                                <p>A presentational progressive web app with client-side rendering and validations.</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                    <button>jQuery</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/tour.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/Nigeria-Tourist-App" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://tourist-guide-app.netlify.app" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>Nigeria Tour App</strong></h3>
+                                <p>An easy web app guide to tourism in Nigeria.</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                    <button>REST API</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/budgetify.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/Budgetify-app" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://zealous-aryabhata-69f218.netlify.app/" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>Budgetify App</strong></h3>
+                                <p>This app is designed to help users keep track of monthly expenditures against gross budget(salary).</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                    <button>REST API</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/calendar.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/calendar-server-demo" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://calendar-app-demo.herokuapp.com" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>Calendar Events Reminder</strong></h3>
+                                <p>This app is designed to save user calendar events in a database and send weekly and daily event reminder sms and mails to designated number.</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>Vanilla JS</button>
+                                    <button>Node/ExpressJS</button>
+                                    <button>REST API</button>
+                                    <button>MongoDB</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/cms.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/CMS-frontend" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://cms-app.netlify.app/" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>Census Management System</strong></h3>
+                                <p>A web data collection for taking statistics of the population.</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                    <button>REST API</button>
+                                    <button>ChartJS</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/weather.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/Weather-app-ECX" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://weather-app-femi.netlify.app/" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>Weather Forecast App</strong></h3>
+                                <p>A weather forecast web app that detects location with browser IP address, geolocation or user search and displays current and day weather forecasts.</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                    <button>REST API</button>
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
-                        <p>A full front-end React app with client-side rendering and validations.</p>
                 </div>
             </div>
             <div className="about-social">
