@@ -233,8 +233,8 @@ export default class Work extends Component {
                                 <div className="project-img">
                                     <img src="img/weather.png" alt="project" />
                                     <div className="project-links">
-                                        <a href="https://github.com/Lawalshalom/Weather-app-ECX" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
-                                        <a href="https://weather-app-femi.netlify.app/" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                        <a href="https://github.com/Lawalshalom/weather-app-gads/" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="http://weather-app-gads-femi.web.app/" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
                                     </div>
                                 </div>
                                 <h3><strong>Weather Forecast App</strong></h3>
@@ -243,6 +243,7 @@ export default class Work extends Component {
                                     <button>ReactJs</button>
                                     <button>SCSS</button>
                                     <button>REST API</button>
+                                    <button>Firebase</button>
                                 </p>
                             </div>
                         </div>
