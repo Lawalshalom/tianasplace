@@ -69,9 +69,10 @@ export default class Work extends Component {
                             <div className="header">
                                 <h1>My <span>Skills</span></h1>
                             </div>
-                        <p>Determined and productive web developer with a passion for creative solutions.</p>
-                        <p>Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including HTML5, CSS3 (Sass and Less), JavaScript(ES6), MySQL, React, Redux and React Native</p>
-                        <p>I also have full-stack experience in the MERN stack (MongoDB, Express, React, NodeJs).</p>
+                        <p>MERN stack developer with excellent technical abilities offering years of
+                            high level professional experience working on multiple projects.</p>
+                        <p>Exceptionally communicative and challenge-hungry with a penchant for meeting</p>
+                        <p>Equipped with a diverse and promising skill-set. Proficient in an assortment of technologies, including HTML5, CSS3 (Sass and Less), JavaScript(ES6), MySQL, React, Redux and React Native, Node, Express and MongoDB</p>
                         <p>Other relevant technologies include Data Visualizations with D3, Unit and functional testings with Mocha and Jest, jQuery, relational databases as mySQL.</p>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
@@ -130,6 +131,69 @@ export default class Work extends Component {
                 <div className="project">
                     <h1>PR<span>OJE</span>CTS</h1>
                     <div className="row">
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/titilailai.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/titilailai" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://titilailai.com" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>TÍTÍLÁÍLÁÍ</strong></h3>
+                                <p>Wedding bells! Tinuke weds Timilehin!</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/oneshare.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/oneshare" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://oneshare.netlify.app" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>OneShare</strong></h3>
+                                <p>Food security for all. Putting an end to hunger</p>
+                                <p>A web-based food and PPE sharing platform</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                    <button>NodeJS</button>
+                                    <button>Express</button>
+                                    <button>MongoDB</button>
+                                    <button>REST API</button>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="project-item">
+                                <div className="project-img">
+                                    <img src="img/medrec.png" alt="project" />
+                                    <div className="project-links">
+                                        <a href="https://github.com/Lawalshalom/medrec" title="Github link" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+                                        <a href="https://medrec-gads.netlify.app" title="visit project" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                                    </div>
+                                </div>
+                                <h3><strong>MedRec</strong></h3>
+                                <p>MedRec is a digital solution to the health record system.</p>
+                                <p className="tech"><strong>Technologies:</strong>
+                                    <button>ReactJs</button>
+                                    <button>SCSS</button>
+                                    <button>NodeJS</button>
+                                    <button>Express</button>
+                                    <button>MongoDB</button>
+                                    <button>REST API</button>
+                                </p>
+                            </div>
+                        </div>
 
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="project-item">
